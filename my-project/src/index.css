@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+    background-color: black;
+}
+.nav {
+    color:white;
+    font-size:1.5rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:60px;
+}
+.nav a{
+    padding:10px;
+}
+
