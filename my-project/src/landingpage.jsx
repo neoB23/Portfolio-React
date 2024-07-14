@@ -2,8 +2,8 @@ function Landing() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-950">
             <header className="text-center mb-6">
-                <h1 className="text-7xl font-thin text-white">Hi, I'm Justin Parlan</h1>
-                <h2 className="text-9xl font-bold text-white mt-2 ">
+                <h1 className="text-4xl font-thin text-white">Hi👋, I'm Justin Parlan</h1>
+                <h2 className="text-7xl font-bold text-white mt-2 ">
                     A <span className="text-red-500">Front-End Developer</span> <br />
                     & A <span className="text-red-500">UI/UX Designer</span>
                 </h2>
