@@ -1,15 +1,22 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Nav from './Navigation.jsx'
-import Landing from './landingpage.jsx'
+import Nav from './components/Navigation.jsx'
+import Landing from './components/landingpage.jsx'
+import About from './components/About.jsx'
+import Project from './components/Project.jsx'
+import Skills from './components/Skills.jsx'
+import Footer from './components/footer.jsx'
+import './index.css';
+
 
 function App() {
   return (
     <>
     <Nav/>
     <Landing/>
+    <About/>
+    <Project/>
+    <Skills/>
+    <Footer/>
     </>
     
   );
