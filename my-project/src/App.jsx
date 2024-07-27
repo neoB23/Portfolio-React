@@ -3,9 +3,10 @@ import Nav from './components/Navigation.jsx'
 import Landing from './components/landingpage.jsx'
 import About from './components/About.jsx'
 import Project from './components/Project.jsx'
-import Skills from './components/Skills.jsx'
+import Skill from './components/Skill.jsx'
 import Footer from './components/footer.jsx'
 import './index.css';
+
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
     <Nav/>
     <Landing/>
     <About/>
+    <Skill/>
     <Project/>
-    <Skills/>
+    
     <Footer/>
     </>
     
