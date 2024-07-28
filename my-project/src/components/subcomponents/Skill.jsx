@@ -3,7 +3,7 @@ import React from 'react';
 function Skill() {
     return (
         <div>
-            <h1 className="flex justify-center item-center text-white font-bold text-5xl p-12 ">Tech Stack</h1>
+            <h1 className="flex justify-center item-center text-white font-bold text-3xl p-12 ">Tech Stack</h1>
                 <div className="flex space-x-16 overflow-hidden bg-neutral-950 pb-44 ">
                         <div className="flex  w-full animate-loop-scroll space-x-16 ">
                             <img src="/images/1.png" alt="HTML" className="max-w-none" />

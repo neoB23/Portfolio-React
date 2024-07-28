@@ -2,7 +2,7 @@ import React from 'react';
 
 function Landing() {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen p-5 bg-neutral-950">
+        <div className="flex flex-col items-center justify-center min-h-screen pt-24 bg-neutral-950 pattern-boxes">
             <header className="text-center mb-10">
                 <h1 className="text-3xl sm:text-4xl font-thin text-white">
                     Hi <span className="wave">👋</span>, I'm Justin Parlan
@@ -12,6 +12,7 @@ function Landing() {
                     & A <span className="text-red-500">UI/UX Designer</span>
                 </h2>
             </header>
+            
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-10 text-xl mb-24">
                 <a href="/" className="flex items-center px-7 py-4 bg-white text-black rounded-full hover:bg-blue-600 transition duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="mr-2">

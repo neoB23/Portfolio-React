@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (  
-        <div className="flex flex-col lg:flex-row h-screen justify-center items-center bg-neutral-950 p-5 text-white">
+        <div className="flex flex-col lg:flex-row h-screen justify-center items-center bg-neutral-950 p-5 text-white pt-36">
             <img src="/images/image1.jpg" className="rounded-lg w-full max-w-md lg:max-w-lg mb-5 lg:mb-0 lg:mr-8" alt="Logo" />
 
             <div className="max-w-2xl px-6 lg:px-12">
@@ -32,7 +32,9 @@ function About() {
                     I'm excited to continue honing my skills and taking on new challenges. Thanks for learning a bit about me!
                 </p>
             </div>
+            
         </div>
+        
     );
 }
 
