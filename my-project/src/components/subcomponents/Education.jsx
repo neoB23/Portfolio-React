@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
     return (
-        <section className="flex flex-col lg:flex-row bg-neutral-950 dark:text-white">
+        <section className="flex flex-col lg:flex-row bg-neutral-950 dark:text-white sm:text-white">
             <div className="container max-w-5xl px-4 py-12 mx-auto ">
                 <div className="grid gap-4 mx-4 sm:grid-cols-12">
                     <div className="col-span-12 sm:col-span-3">

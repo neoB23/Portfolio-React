@@ -17,6 +17,11 @@ export default {
         },
       },
     },
+    fontFamily:{
+      abc:["Geologica", "sans-serif"],
+      abd:["Poppins", "sans-serif"],
+      abb:["Silkscreen", "sans-serif"],
+    }
   },
   plugins: [],
 }
