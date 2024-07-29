@@ -5,7 +5,7 @@ function Landing() {
         <div className="flex flex-col items-center justify-center min-h-screen pt-24 bg-neutral-950 pattern-boxes">
             <header className="text-center mb-10">
                 <h1 className="text-3xl sm:text-4xl font-thin text-white">
-                    Hi <span className="wave">👋</span>, I'm Justin Parlan
+                    Hi <span className="wave">👋</span>, I'm Justin
                 </h1>
                 <h2 className="text-5xl sm:text-7xl font-bold text-white mt-2">
                     A <span className="text-red-500">Front-End Developer</span> <br />
