@@ -51,8 +51,8 @@
                       /* size of the box */
     background-size: 50px 50px; 
     /* shape of the mask */
-    -webkit-mask-image: radial-gradient(ellipse, black 60%, transparent 70%);
-    mask-image: radial-gradient(ellipse black 100%, transparent 41%);
+    -webkit-mask-image: radial-gradient(ellipse, black 40%, transparent 70%);
+    mask-image: radial-gradient(ellipse black 30%, transparent 41%);
   }
   .content {
     position: relative;

@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       animation: {
-        "loop-scroll": "loop-scroll 10s linear infinite"
+        "loop-scroll": "loop-scroll 20s linear infinite"
       },
       keyframes: {
         // from -4 to -104
         "loop-scroll": {
-          from: { transform: "translateX(0%)" },
+          from: { transform: "translateX(-4%)" },
           to: { transform: "translateX(-104%)" },
         },
       },
