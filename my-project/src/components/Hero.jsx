@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function Landing() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen pt-24 bg-neutral-950 pattern-boxes">
-            <header className="text-center mb-10">
+            <header className="text-center mb-10 px-4">
                 <motion.h2
                     className="text-2xl sm:text-3xl font-thin text-white"
                     initial={{ opacity: 0, y: -50, filter: 'blur(10px)' }}
@@ -19,13 +19,13 @@ function Landing() {
                     animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
                     transition={{ delay: 0.5 }}
                 >
-                    A <span className="text-red-500">Front-End Developer</span> <br />
+                    A <span className="text-red-500">Front-End Developer</span>
                 </motion.h2>
                 <motion.h3
-                    className="text-1xl sm:text-2xl font-thin text-white pt-2"
+                    className="text-sm sm:text-xl font-thin text-white pt-2 leading-relaxed"
                     initial={{ opacity: 0, y: -10, filter: 'blur(10px)' }}
                     animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-                    transition={{  delay: 0.5 }}
+                    transition={{ delay: 0.5 }}
                 >
                     from Philippines📍, currently taking BS Information Technology💻
                 </motion.h3>

@@ -4,14 +4,17 @@ import { motion } from 'framer-motion';
 function About() {
     return (
         <div className="flex justify-center items-center flex-col lg:flex-row bg-neutral-950 p-4 lg:p-12 text-white pt-12 lg:pt-44">
+            <div className="img1"> 
             <motion.img 
                 src="/images/image1.jpg" 
-                className="rounded-full w-full max-w-sm lg:max-w-sm mb-5 lg:mb-0 lg:mr-8 mt-4 lg:mt-0" 
+                className="rounded-full w-full max-w-sm lg:max-w-sm mb-5 lg:mb-0 lg:mr-8 mt-4 lg:mt-0 imgg" 
+                
                 alt="Logo" 
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
             />
+            </div>
             <div className="max-w-full lg:max-w-2xl px-4 lg:px-6">
                 <div className="flex flex-col lg:flex-row gap-6 lg:gap-12">
                     <motion.div

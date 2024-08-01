@@ -41,8 +41,8 @@ function Volunteer() {
                             className="rounded-full w-16 h-16 md:w-24 md:h-24"
                         />
                         <div className="flex flex-col mt-4 lg:mt-0 lg:ml-4">
-                            <h1 className="text-white font-bold text-sm md:text-base">Filipino Web Developer Peers</h1>
-                            <div className="flex flex-row justify-center item-center lg:space-x-4 mt-2"> 
+                            <h1 className="text-white font-bold text-sm md:text-base flex justify-center item-center">Filipino Web Developer Peers</h1>
+                            <div className="flex flex-row justify-center item-center space-x-4 sm:space-x-4 mt-2"> 
                                 <p className="bg-zinc-700 p-2 rounded-full text-xs sm:text-sm text-white">2023 - Present</p>
                                 <p className="bg-zinc-700 p-2 rounded-full text-xs sm:text-sm text-white">Creatives</p>
                             </div>
@@ -60,8 +60,8 @@ function Volunteer() {
                             className="rounded-full w-16 h-16 md:w-24 md:h-24"
                         />
                         <div className="flex flex-col mt-4 lg:mt-0 lg:ml-4">
-                            <h1 className="text-white font-bold text-sm md:text-base">Virtual Protocol</h1>
-                            <div className="flex flex-row justify-center item-center lg:space-x-4 mt-2">
+                            <h1 className="text-white font-bold text-sm md:text-base flex justify-center item-center">Virtual Protocol</h1>
+                            <div className="flex flex-row justify-center item-center space-x-4 sm:space-x-4 mt-2">
                                 <p className="bg-zinc-700 p-2 rounded-full text-xs sm:text-sm text-white">2024 - Present</p>
                                 <p className="bg-zinc-700 p-2 rounded-full text-xs sm:text-sm text-white">Volunteer</p>
                             </div>
