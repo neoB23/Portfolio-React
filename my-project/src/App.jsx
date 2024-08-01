@@ -6,6 +6,7 @@ import AboutAndSkills from './components/AboutAndSkills.jsx';
 import Project from './components/Project.jsx';
 import Footer from './components/footer.jsx';
 import './index.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/projects" element={<Project />} />
       </Routes>
       <Footer />
+      <SpeedInsights />
     </Router>
   );
 }
