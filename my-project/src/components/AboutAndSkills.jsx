@@ -3,7 +3,7 @@ import React from 'react';
 import About from './subcomponents/About.jsx';
 import Skill from './subcomponents/Skill.jsx';
 import Education from './subcomponents/Education.jsx'
-import Certificate from './subcomponents/Certificate.jsx'
+import Volunteer from './subcomponents/Volunteer.jsx'
 
 
 function AboutAndSkills() {
@@ -11,7 +11,7 @@ function AboutAndSkills() {
         <div>
             <About />
             <Skill />
-            <Certificate/>
+            <Volunteer/>
             <Education/>
         </div>
     );
