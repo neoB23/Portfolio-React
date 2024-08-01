@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 function Nav() {
+    
     const [isVisible, setIsVisible] = useState(true);
     const location = useLocation();
     let lastScrollY = window.scrollY;
@@ -25,7 +26,7 @@ function Nav() {
 
     // Determine if the link is active
     const isActive = (path) => location.pathname === path;
-
+    
     return (
         <div className={`fixed w-full bottom-0 sm:top-0 sm:bottom-auto z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : 'translate-y-full sm:-translate-y-full'}`}>
             <div className="text-white text-1xl flex items-center justify-center p-14">
@@ -36,6 +37,7 @@ function Nav() {
                 </div>
             </div>
         </div>
+        
     );
 }
 

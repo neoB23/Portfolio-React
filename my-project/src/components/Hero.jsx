@@ -6,7 +6,7 @@ function Landing() {
         <div className="flex flex-col items-center justify-center min-h-screen pt-24 bg-neutral-950 pattern-boxes">
             <header className="text-center mb-10 px-4">
                 <motion.h2
-                    className="text-2xl sm:text-3xl font-thin text-white"
+                    className="text-xl sm:text-3xl font-thin text-white"
                     initial={{ opacity: 0, y: -50, filter: 'blur(10px)' }}
                     animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
                     transition={{ duration: 0.5 }}
