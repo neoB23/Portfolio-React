@@ -30,7 +30,7 @@ function Volunteer() {
                 </motion.h1>
                 <div className="flex flex-col lg:flex-row lg:gap-x-12 gap-y-8 md:gap-y-12 pb-16 md:pb-24" ref={ref}> 
                     <motion.div 
-                        className="bg-zinc-900 p-3 flex flex-col lg:flex-row items-center lg:space-x-4 rounded-[20px]" 
+                        className="bg-[#ffffff08] p-3 flex flex-col lg:flex-row items-center lg:space-x-4 rounded-[20px]" 
                         initial="hidden"
                         animate={controls}
                         variants={itemVariants}
@@ -49,7 +49,7 @@ function Volunteer() {
                         </div>
                     </motion.div>
                     <motion.div 
-                        className="bg-zinc-900 p-3 flex flex-col lg:flex-row items-center lg:space-x-4 rounded-[20px]" 
+                        className="bg-[#ffffff08] p-3 flex flex-col lg:flex-row items-center lg:space-x-4 rounded-[20px]" 
                         initial="hidden"
                         animate={controls}
                         variants={itemVariants}

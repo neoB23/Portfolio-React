@@ -19,7 +19,7 @@ function Landing() {
                     animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
                     transition={{ delay: 0.5 }}
                 >
-                    A <span className="text-red-500">Front-End Developer</span>
+                    A <span className="text-gradient">Front-End Developer</span>
                 </motion.h2>
                 <motion.h3
                     className="text-sm sm:text-xl font-thin text-white pt-2 leading-relaxed"

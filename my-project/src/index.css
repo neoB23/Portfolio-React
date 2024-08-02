@@ -40,10 +40,10 @@
 .pattern-boxes {
   position: relative;
   background-color: rgb(10, 10, 10);
-  background-image: linear-gradient(to right, rgba(90, 0, 0, 0.384) 1px, transparent 1px),
-                    linear-gradient(to bottom, rgba(92, 0, 0, 0.185) 1px, transparent 1px);
+  background-image: linear-gradient(to right, rgba(83, 0, 151, 0.274) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(83, 0, 151, 0.253) 1px, transparent 1px);
                     /* size of the box */
-  background-size: 50px 50px; 
+  background-size: 70px 70px; 
   /* shape of the mask */
   -webkit-mask-image: radial-gradient(ellipse, black 30%, transparent 50%);
   mask-image: radial-gradient(ellipse black 100%, transparent 31%);
@@ -53,12 +53,36 @@
   z-index: 1;
   padding: 2rem;
 }
+
+
+/* gradient text */
+.text-gradient {
+  background: linear-gradient(90deg, #feda75,#d62976,#962fbf, #4f5bd5 );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
 @media screen and (max-width: 760px) {
   .pattern-boxes {
     position: relative;
     background-color: rgb(10, 10, 10);
-    background-image: linear-gradient(to right, rgba(90, 0, 0, 0.384) 1px, transparent 1px),
-                      linear-gradient(to bottom, rgba(92, 0, 0, 0.185) 1px, transparent 1px);
+    background-image: linear-gradient(to right, rgba(83, 0, 151, 0.384) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(83, 0, 151, 0.384) 1px, transparent 1px);
                       /* size of the box */
     background-size: 50px 50px; 
     /* shape of the mask */

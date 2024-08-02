@@ -7,7 +7,7 @@ function About() {
             <div className="img1"> 
             <motion.img 
                 src="/images/image1.jpg" 
-                className="rounded-full w-full max-w-sm lg:max-w-sm mb-5 lg:mb-0 lg:mr-8 mt-4 lg:mt-0 imgg" 
+                className="rounded-full w-full max-w-sm lg:max-w-sm mb-5 lg:mb-0 lg:mr-8 mt-4 lg:mt-0 imgg " 
                 
                 alt="Logo" 
                 initial={{ opacity: 0, scale: 0.9 }}
