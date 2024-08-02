@@ -49,7 +49,7 @@ function Project() {
                             <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </a>
-                    <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#ffffff08] rounded-lg hidden sm:block">
+                    <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#ffffff08] rounded-lg">
                         <img role="presentation" className="object-cover w-full rounded-t-lg h-44 dark:bg-gray-500" src="/images/ss4.png"/>
                         <div className="p-6 space-y-2 rounded-b-lg">
                             <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline text-gradient">GYM MEMBERSHIP SYSTEM</h3>
@@ -60,7 +60,7 @@ function Project() {
                             <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </a>
-                    <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#ffffff08] rounded-lg hidden sm:block">
+                    <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#ffffff08] rounded-lg">
                         <img role="presentation" className="object-cover w-full rounded-t-lg h-44 dark:bg-gray-500" src="/images/ss5.png"/>
                         <div className="p-6 space-y-2 rounded-b-lg">
                             <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline text-gradient">CAR MANAGEMENT SYSTEM</h3>
@@ -71,7 +71,7 @@ function Project() {
                             <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </a>
-                    <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#ffffff08] rounded-lg hidden sm:block">
+                    <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#ffffff08] rounded-lg">
                         <img role="presentation" className="object-cover w-full rounded-t-lg h-44 dark:bg-gray-500" src="/images/ss6.png"/>
                         <div className="p-6 space-y-2 rounded-b-lg">
                             <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline text-gradient">PORTFOLIO V1</h3>
