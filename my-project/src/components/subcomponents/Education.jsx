@@ -5,17 +5,17 @@ const educationData = [
     {
         institution: "University of Rizal System",
         period: "2022 - Present",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description: "Currently a 3rd-year college student with a strong passion for front-end development. I am deeply engaged in learning and mastering modern web technologies, focusing on creating intuitive and visually appealing user interfaces. My studies and personal projects allow me to explore various front-end frameworks and tools."
     },
     {
         institution: "Our Lady of Fatima University",
         period: "2020-2022",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description: "Graduated from Our Lady of Fatima University (OLFU) with a focus on the Science, Technology, Engineering, and Mathematics (STEM) strand. This program provided a solid foundation in scientific and mathematical disciplines, preparing me for advanced studies and careers in these fields."
     },
     {
         institution: "Holy Child School of Antipolo",
         period: "2010-2020",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description: "Graduated from elementary and high school with honors, demonstrating a strong commitment to academic excellence and a consistent track record of high performance throughout my educational journey."
     }
 ];
 
@@ -23,7 +23,7 @@ const experienceData = [
     {
         title: "NC II TRAINING",
         period: "PRESENT",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description: "Completed NC II training at TESDA, where I mastered skills in networking, PC assembly, and configuring computers. This training provided me with hands-on experience and technical expertise in managing and maintaining computer systems."
     }
 ];
 
@@ -85,7 +85,7 @@ function Education() {
             <div className="lg:text-white lg:flex-row col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-300"/>
             <div className="container max-w-5xl px-4 py-12 mx-auto flex-col">
                 <div className="grid gap-4 mx-4 sm:grid-cols-12">
-                <div className="col-span-12 sm:col-span-3">
+                <div className="col-span-12 col-span-3">
                         {/* Empty for spacing */}
                     </div>
                     <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
