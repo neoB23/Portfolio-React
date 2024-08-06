@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Skill() {
     return (
-        <div className="pt-24 lg:pt-0"> {/* Add padding-top for separation */}
+        <div className="pt-12 lg:pt-0"> {/* Add padding-top for separation */}
             <h1 className="flex justify-center items-center text-white font-bold text-xl md:text-2xl p-12">Tech Stack</h1>
             
             {/* For larger screens */}
@@ -38,16 +38,16 @@ function Skill() {
             {/* For mobile screens */}
             <div className="flex lg:hidden space-x-4 overflow-hidden bg-neutral-950 pb-24 group">
                 <div className="flex w-full animate-loop-scroll space-x-4 group-hover:paused">
-                    <img src="/images/1.png" alt="HTML" className="max-w-none w-24" />
-                    <img src="/images/2.png" alt="CSS" className="max-w-none w-24" />
-                    <img src="/images/3.png" alt="JavaScript" className="max-w-none w-24" />
-                    <img src="/images/4.png" alt="React JS" className="max-w-none w-24" />
-                    <img src="/images/5.png" alt="MySQL" className="max-w-none w-24" />
-                    <img src="/images/6.png" alt="C#" className="max-w-none w-24" />
-                    <img src="/images/7.png" alt="Netlify" className="max-w-none w-24" />
-                    <img src="/images/8.png" alt="Netlify" className="max-w-none w-24" />
-                    <img src="/images/9.png" alt="Netlify" className="max-w-none ww-24" />
-                    <img src="/images/10.png" alt="Netlify" className="max-w-none w-24" />
+                    <img src="/images/1.png" alt="HTML" className="max-w-none " />
+                    <img src="/images/2.png" alt="CSS" className="max-w-none " />
+                    <img src="/images/3.png" alt="JavaScript" className="max-w-none " />
+                    <img src="/images/4.png" alt="React JS" className="max-w-none " />
+                    <img src="/images/5.png" alt="MySQL" className="max-w-none " />
+                    <img src="/images/6.png" alt="C#" className="max-w-none " />
+                    <img src="/images/7.png" alt="Netlify" className="max-w-none " />
+                    <img src="/images/8.png" alt="Netlify" className="max-w-none " />
+                    <img src="/images/9.png" alt="Netlify" className="max-w-none " />
+                    <img src="/images/10.png" alt="Netlify" className="max-w-none " />
                 </div>
             </div>
         </div>

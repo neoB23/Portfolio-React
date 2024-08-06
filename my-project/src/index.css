@@ -37,6 +37,17 @@
   -webkit-mask-image: radial-gradient(ellipse, black 30%, transparent 50%);
   mask-image: radial-gradient(ellipse black 100%, transparent 31%);
 }
+.pattern-boxess {
+  position: relative;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(to right, rgba(83, 0, 151, 0.274) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(83, 0, 151, 0.253) 1px, transparent 1px);
+                    /* size of the box */
+  background-size: 70px 70px; 
+  /* shape of the mask */
+  -webkit-mask-image: radial-gradient(ellipse, black 30%, transparent 50%);
+  mask-image: radial-gradient(ellipse black 100%, transparent 31%);
+}
 .content {
   position: relative;
   z-index: 1;
@@ -59,7 +70,6 @@
 .img1:hover{
   filter:none;
 }
-
 /* scroll logo animation */
 @layer utilities{
   .paused{
@@ -88,8 +98,8 @@
                       /* size of the box */
     background-size: 50px 50px; 
     /* shape of the mask */
-    -webkit-mask-image: radial-gradient(ellipse, black 40%, transparent 70%);
-    mask-image: radial-gradient(ellipse black 30%, transparent 41%);
+    -webkit-mask-image: radial-gradient(ellipse, black 40%, transparent 80%);
+    mask-image: radial-gradient(ellipse black 30%, transparent 51%);
   }
   .content {
     position: relative;
