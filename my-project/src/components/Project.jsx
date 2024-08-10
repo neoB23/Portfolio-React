@@ -95,7 +95,7 @@ function Project() {
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline text-gradient">{project.title}</h3>
                                 <div className="flex space-x-3"> 
                                     {project.skills.map((skill, skillIndex) => (
-                                        <span key={skillIndex} className="bg-neutral-800 p-2 rounded-lg text-xs dark:text-gray-400 sm:dark:text-gray-400">{skill}</span>
+                                        <span key={skillIndex} className="bg-neutral-800 p-2 rounded-lg text-xs dark:text-gray-400 lg:dark:text-gray-400 sm:dark:text-gray-400">{skill}</span>
                                     ))}
                                 </div>
                                 <p className="text-white">{expanded[index] ? project.description : `${project.description.substring(0, 100)}...`}</p>
